@@ -21,6 +21,8 @@ int verifyEH(const char *hdr, const std::vector<unsigned char> &soln, unsigned i
       isValid = Eh96_3.IsValidSolution(state, soln);
   } else if (n == 200 && k == 9) {
       isValid = Eh200_9.IsValidSolution(state, soln);
+  } else if (n == 210 && k == 9) {
+      isValid = Eh210_9.IsValidSolution(state, soln);
   } else if (n == 144 && k == 5) {
       isValid = Eh144_5.IsValidSolution(state, soln);
   } else if (n == 192 && k == 7) {
